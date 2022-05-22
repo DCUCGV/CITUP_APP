@@ -54,11 +54,13 @@ public class MainPage extends AppCompatActivity {
 //        TextView textView3 = (TextView) findViewById(R.id.textView3);
 
         Retrofit retrofit = new Retrofit.Builder()
+                //장고 서버와 연결하기 위한 ngrok 주소 입력, ngrok가 실행 될 때마다 주소가 바뀌니 실행 시 주소 변경
                 .baseUrl("https://e22c-119-201-40-146.jp.ngrok.io/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         JsonPlaceHolderApi jsonPlaceHolderApi = retrofit.create(JsonPlaceHolderApi.class);
 
+        //앱 실행 시 포화도
         Call<List<Post>> call = jsonPlaceHolderApi.getPost();
         call.enqueue(new Callback<List<Post>>() {
             @Override
@@ -89,7 +91,7 @@ public class MainPage extends AppCompatActivity {
             }
         });
 
-
+        //버튼 클릭 시 쓰레기통 내 포화도 값 불러옴
         Button loadingBtn = findViewById(R.id.loadingBtn);
         loadingBtn.setOnClickListener(new View.OnClickListener() {
                @Override
