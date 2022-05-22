@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "764222082483",
+    "project_id": "cit-up",
+    "storage_bucket": "cit-up.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764222082483:android:f54488143de6716e6b0fc6",
+        "android_client_info": {
+          "package_name": "com.example.cit_up"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "764222082483-hm9b2f3nj9r6bbl3c2bv6t6kgdbebqpt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC83xtWueVqr14Y8UZtdZp70ZuMYMMl5CU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "764222082483-hm9b2f3nj9r6bbl3c2bv6t6kgdbebqpt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
