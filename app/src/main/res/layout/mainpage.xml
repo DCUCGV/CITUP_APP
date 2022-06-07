@@ -19,13 +19,14 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_weight="1" />
+
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="113dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:text="공대관리자 님"
-            android:textSize="50px">
-        </TextView>
+            android:textSize="50px"></TextView>
+
         <Button
             android:id="@+id/SettingsBtn"
             android:layout_width="wrap_content"
@@ -40,10 +41,10 @@
 
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="130dp"
+        android:layout_width="280dp"
+        android:layout_height="518dp"
         android:layout_gravity="center"
+        android:layout_marginTop="80dp"
         android:orientation="vertical">
 
         <LinearLayout
@@ -54,8 +55,8 @@
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="246dp"
+                android:layout_height="295dp"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
                 android:src="@drawable/trashcan"></ImageView>
@@ -63,52 +64,58 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:layout_gravity="center"
-                android:text="쓰레기"></TextView>
+                android:layout_weight="2"
+                android:text="공대 쓰레기통"
+                android:textSize="50px"></TextView>
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
             android:orientation="vertical">
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center">
 
                 <ProgressBar
                     android:id="@+id/progressBar1"
                     style="@android:style/Widget.ProgressBar.Horizontal"
-                    android:layout_width="200dp"
-                    android:layout_height="wrap_content"></ProgressBar>
+                    android:layout_width="230dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"></ProgressBar>
 
                 <TextView
                     android:id="@+id/textView1"
-                    android:layout_width="wrap_content"
+                    android:layout_width="50dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-                    android:textSize="50px"></TextView>
+                    android:layout_marginRight="5dp"
+                    android:textSize="40px"></TextView>
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="18dp"
-                android:layout_gravity="center">
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp">
 
                 <Button
                     android:id="@+id/CompressBtn1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="5dp"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="15dp"
                     android:text="압 축"></Button>
 
                 <Button
                     android:id="@+id/loadingBtn"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="25dp"
                     android:text="Loading"></Button>
 
             </LinearLayout>

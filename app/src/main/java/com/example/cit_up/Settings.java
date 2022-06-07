@@ -31,29 +31,29 @@ public class Settings extends AppCompatActivity {
 
         final TextView Location = (TextView) findViewById(R.id.Location);
 
-        final Button LocationChange = (Button) findViewById(R.id.LocationChange);
-        LocationChange.setOnClickListener(new View.OnClickListener(){
+//        final Button LocationChange = (Button) findViewById(R.id.LocationChange);
+//        LocationChange.setOnClickListener(new View.OnClickListener(){
 
-            public void onClick(View view){
-
-                AlertDialog.Builder dlg = new AlertDialog.Builder(Settings.this);
-                dlg.setTitle("쓰레기통 목록"); //제목
-                final String[] versionArray = new String[] {"대구가톨릭대학교 공학관 D2 5층","대구가톨릭대학교 신학관 C6 1층",
-                        "대구가톨릭대학교 기숙사 효성관 2층"};
-
-                dlg.setSingleChoiceItems(versionArray, 0, new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        Location.setText(versionArray[which]);
-                    }
-                });
+//            public void onClick(View view){
+//
+//                AlertDialog.Builder dlg = new AlertDialog.Builder(Settings.this);
+//                dlg.setTitle("쓰레기통 목록"); //제목
+//                final String[] versionArray = new String[] {"대구가톨릭대학교 공학관 D2 5층","대구가톨릭대학교 신학관 C6 1층",
+//                        "대구가톨릭대학교 기숙사 효성관 2층"};
+//
+//                dlg.setSingleChoiceItems(versionArray, 0, new DialogInterface.OnClickListener() {
+//                    @Override
+//                    public void onClick(DialogInterface dialog, int which) {
+//                        Location.setText(versionArray[which]);
+//                    }
+//                });
 //                버튼 클릭시 동작
-                dlg.setPositiveButton("확인",new DialogInterface.OnClickListener(){
-                    public void onClick(DialogInterface dialog, int which) {
-                    }
-                });
-                dlg.show();
-            }
-        });
+//                dlg.setPositiveButton("확인",new DialogInterface.OnClickListener(){
+//                    public void onClick(DialogInterface dialog, int which) {
+//                    }
+//                });
+//                dlg.show();
+//            }
+//        });
     }
 }

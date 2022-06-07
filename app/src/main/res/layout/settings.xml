@@ -74,16 +74,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center">
-            <Button
-                android:id="@+id/LocationChange"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/buttonshpae"
-                android:textColor="#4CAF50"
-                android:text="위치 변경">
-            </Button>
-        </LinearLayout>
+            android:gravity="center"/>
     </LinearLayout>
 
     <LinearLayout
@@ -93,8 +84,8 @@
         android:layout_marginTop="150dp">
         <Button
             android:id="@+id/LogoutBtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
             android:layout_gravity="bottom"
             android:text="로그아웃">
         </Button>

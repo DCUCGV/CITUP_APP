@@ -72,7 +72,7 @@ public class MainPage extends AppCompatActivity {
 
         Retrofit retrofit = new Retrofit.Builder()
                 //장고 서버와 연결하기 위한 ngrok 주소 입력, ngrok가 실행 될 때마다 주소가 바뀌니 실행 시 주소 변경
-                .baseUrl("https://ca03-119-201-40-146.jp.ngrok.io/")
+                .baseUrl("https://7ef8-1-210-95-42.jp.ngrok.io/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         JsonPlaceHolderApi jsonPlaceHolderApi = retrofit.create(JsonPlaceHolderApi.class);
